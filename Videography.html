@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videography/Tech Mantan 4.0 - Dr. B.B. Hegde First Grade College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #141515;
+        font-family: "Space Mono", monospace;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: column;
+    }
+    .container{
+        height: 2000px;
+        width: 2000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav{
+        height:100px;
+        position:absolute;
+        top:0;
+        background-image:url("static/Group 7.png");
+        background-size: auto;
+        width: 100%;
+
+    }
+
+    .header{
+        position:absolute;
+        top: 100px;
+      
+        height: 1000px;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items:left;
+        flex-direction: column;
+    }
+        
+    .speed{
+        position: absolute;
+        top: 40px;
+      
+        font-weight: 900;
+        
+        font-size: 50px;
+    }
+    
+    .syntax{
+        height: 50px;
+        width:120px;
+        position: absolute;
+        top:130px;
+        background-image: url("static/syntax.png");
+        background-size: contain;
+       
+
+    }
+    table{
+        position:absolute;
+        top:200px;
+        width:100%;
+        height:max-content;
+       
+    }
+    td{
+        padding:20px;
+        border-bottom: 2px dashed rgb(78, 78, 78);
+    }
+    #fa{
+        color: black;
+        -webkit-text-stroke: 1px white;
+        color: transparent;
+    }
+    .divide{
+        height:100px;
+        position:absolute;
+        top:800px;
+        background-image:url("static/Group 7.png");
+        background-size: auto;
+        width: 100%;
+    }
+    .copy{
+        position: absolute;
+        top: 1900px;
+       padding: 10px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+     border-top: 1px solid #636363;
+      border-width: 1px;
+        font-size: 10px;
+        color: #9c9999;
+    }
+    .register{
+        display: flex;
+        justify-content: center;
+        align-items:left;
+        flex-direction: column;
+        font-size: 20px;
+        position:relative;
+        left: 200px;
+
+    }
+    button{
+        padding :10px;
+        font-family: "Space Mono", monospace;
+        font-size: 20px;
+        font-weight: 900;
+        background-color:rgb(23,251,141);
+    }
+    #sym1{
+        color: black;
+        -webkit-text-stroke: 1px white;
+        color: transparent;
+        font-size: 900px;
+        position: absolute;
+        top:-300px;
+        left:1300px;
+    }
+    #sym2{
+        color: black;
+        -webkit-text-stroke: 1px white;
+        color: transparent;
+        font-size: 900px;
+        position: absolute;
+        top:100px;
+        left:00px;
+        z-index:-1;
+    }
+    .last{
+        height:200px;
+        width:100%;
+        background-color:rgb(23,251,141);
+        position: absolute;
+        left:0;
+        top:1150px;
+    }
+    .cord{
+        height:200px;
+        width:100%;
+        background-color:rgb(23,251,141);
+        position: absolute;
+        left:0;
+        top:1150px;
+        color:black;
+        font-weight: 900;
+        padding-left: 50px;
+        padding-top: 40px;
+        font-size: xx-large;
+    }
+    
+    @media (max-width: 768px) {
+            
+        
+            .nav {
+                height: 60px;
+                margin-bottom: 20px;
+            }
+
+            .speed{
+        
+        top: -20px;
+        left:330px;
+        font-weight: 900;
+        
+        font-size: 30px;
+    }
+
+            .syntax {
+                left:330px;
+                height: 20px;
+                width: 50px;
+                margin-bottom: 20px;
+                top:15px;
+            }
+
+            table {
+                font-size: 11px;
+                top:35px;
+                width:350px;
+                left:320px;
+            }
+
+            td {
+                padding: 10px;
+            }
+
+            .register  {
+                font-size: 10px;
+                top:80px;
+                width: 300px;
+                left:-10px;
+                font-family: "Space Mono", monospace;
+
+            }
+.divide{
+    top:480px;
+    height:50px;
+
+}
+            button {
+                font-size: 16px;
+                padding: 8px 16px;
+                font-family: "Space Mono", monospace;
+            }
+
+            .cord {
+                top:800px;
+                font-size: 14px;
+                padding-bottom: 4px;
+                top:650px;
+                height:50px;
+                font-size: 10px;
+            }
+
+            .cord p{
+                position: relative  ;
+                top:-30px;
+                right:30px;
+               
+            }
+
+            #sym1, #sym2 {
+                font-size: 200px;
+            }
+
+            #sym1 { top: -100px; 
+                left: 270px; 
+                font-size: 500px;
+            }
+            #sym2 { top: 400px;
+                left: -50px; }
+                .copy{
+                    top:750px;
+                }
+                .container{
+        height: 1000px;;
+       
+        }
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            
+
+        </div>
+        <div class="header">
+        <div class="speed">
+            <span>Speed <span id="fa">Typing</span></span>
+        </div>
+        <div class="syntax">
+            
+        </div>
+        <div class="rules">
+            <table>
+                
+                    <tr id ="ru"><td>Open to all participants</td><td id="cu">+</td></tr>
+                    <tr id ="ru"><td>There will be three rounds: Round 1 |  Round 2 | Final Round</td><td id="cu">+</td></tr>
+                    <tr id ="ru"><td>There will be three rounds: Round 1 |  Round 2 | Final Round</td><td id="cu">+</td></tr>
+                    <tr id ="ru"><td>The first and second rounds will be used to select participants for the final round</td><td id="cu">+</td></tr>
+                    <tr id ="ru"><td>The first two rounds will be held on October 22nd, while the final round will take place on the day of the fest</td><td id="cu">+</td></tr>
+                    <tr id ="ru"><td>In case of a tie, a sudden death round will be held. The first participant to make a mistake will be eliminated</td><td id="cu">+</td></tr>
+                
+            </table>
+        </div>
+    </div>
+        <div class="divide">
+        </div>
+        <div class="register">
+            <span> Race against the clock, conquer the keyboard, claim the crown!</span>
+            <a href="####"><button>Register Now - </button></a>
+            
+        </div>
+  
+
+<div id="sym1"><span>*</span></div>
+<div id="sym2"><span><i>#</i></span></div>
+
+<div class="cord">
+    <p>Swasthik N Rao | III BCA B | 7483652217  </p>
+    <p>Manisha Shetty | III BCA B | 7619158429  </p>
+</div>
+
+
+
+<div class="copy">
+    <span>&#169;copyRight  2024, computer Application Department| Tech Manthan 4.0 | Dr.B.B.Hegde first Grade College, Kundapura</span>
+</div>
+    </div>
+</body>
+</html>
