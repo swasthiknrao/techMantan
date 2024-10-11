@@ -273,6 +273,7 @@
         height: 220px;
         perspective: 1000px;
         position: relative;
+        cursor: pointer; /* Add this line to show hand cursor on hover */
     }
     
     .event-card::after {
@@ -301,6 +302,7 @@
         font-size: 2.5rem;
         margin-bottom: 10px;
         color: #00ffff;
+        filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.5)); /* Add shadow behind icons */
     }
     
     .event-card a {
@@ -312,6 +314,7 @@
         padding: 8px;
         font-family: 'Space Mono', monospace;
         transition: color 0.3s ease;
+        pointer-events: none; /* Prevent clicking on the link directly */
     }
     
     .event-card a:hover {
@@ -498,7 +501,7 @@
                 <div class="teclogo">
                     <img src="static/logo.png" alt="Tech Mantan Logo">
                 </div>
-                <h2 class="event-name">TECH MANTHAN 4.0</h2>
+                <h2 class="event-name">TECH MANTAN 4.0</h2>
                 
             </div>
             <table class="symbol">
@@ -515,7 +518,7 @@
         <div class="detail">
           <div class="close">}</div>
           <div class="techinfo">
-            <h1>TECH MANTAN 4.0</h1>
+            <h1>TECH MANTHAN 4.0</h1>
             
             <span>
 
@@ -529,53 +532,53 @@
 </div>
         <main>
             <div class="events-grid">
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='canva.html'">
                     <i class="fas fa-palette"></i>
-                    <a href="canva.html">Canva Poster Making</a>
+                    <a>Canva Poster Making</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='Treasure Hunt.html'">
                     <i class="fas fa-map-marked-alt"></i>
-                    <a href="Treasure Hunt.html">Treasure Hunt</a>
+                    <a>Treasure Hunt</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='coding.html'">
                     <i class="fas fa-code"></i>
-                    <a href="coding.html">Coding</a>
+                    <a>Coding</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='speedTyping.html'">
                     <i class="fas fa-keyboard"></i>
-                    <a href="speedTyping.html">Speed Typing</a>
+                    <a>Speed Typing</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='stress_interview.html'">
                     <i class="fas fa-user-tie"></i>
-                    <a href="stress_interview.html">Stress Interview</a>
+                    <a>Stress Interview</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='quiz.html'">
                     <i class="fas fa-question-circle"></i>
-                    <a href="quiz.html">Quiz</a>
+                    <a>Quiz</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='photography.html'">
                     <i class="fas fa-camera"></i>
-                    <a href="photography.html">Photography</a>
+                    <a>Photography</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='Videography.html'">
                     <i class="fas fa-video"></i>
-                    <a href="Videography.html">Videography</a>
+                    <a>Videography</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='cultural.html'">
                     <i class="fas fa-music"></i>
-                    <a href="cultural.html">Cultural</a>
+                    <a>Cultural</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='craft.html'">
                     <i class="fas fa-paint-brush"></i>
-                    <a href="craft.html">Craft-Making</a>
+                    <a>Craft-Making</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='gamming.html'">
                     <i class="fas fa-gamepad"></i>
-                    <a href="gamming.html">Gaming</a>
+                    <a>Gaming</a>
                 </div>
-                <div class="event-card">
+                <div class="event-card" onclick="window.location.href='science_model.html'">
                     <i class="fas fa-atom"></i>
-                    <a href="science_model.html">Science Model</a>
+                    <a>Science Model</a>
                 </div>
             </div>
             <div class="copy">
