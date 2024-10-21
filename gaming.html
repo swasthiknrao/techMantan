@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing /Tech Mantan 4.0 - Dr. B.B. Hegde First Grade College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #141515;
+            font-family: "Space Mono", monospace;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .nav {
+            height: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-image: url("static/Group 7.png");
+            background-size: cover;
+            z-index: 1000;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+
+        .button-container {
+            width: 400px;
+            height: 400px;
+            margin: 20px;
+            perspective: 1000px;
+        }
+
+        .button-container .button {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+            cursor: pointer;
+        }
+
+        .button-container:hover .button {
+            transform: rotateY(180deg);
+        }
+
+        .button-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: "Space Mono", monospace;
+            font-size: 24px;
+            font-weight: 900;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .button-front {
+            background-color: rgb(23,251,141);
+            color: #000;
+        }
+
+        .button-back {
+            background-color: #000;
+            color: rgb(23,251,141);
+            transform: rotateY(180deg);
+        }
+
+        .button-face::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                120deg,
+                transparent,
+                rgba(255, 255, 255, 0.3),
+                transparent
+            );
+            transition: all 0.5s;
+        }
+
+        .button-container:hover .button-face::before {
+            left: 100%;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 60px;
+            height: 60px;
+            background-image: url('static/mamming_logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #free, #bgmi {
+            width: 200px;
+            height: 200px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 10px;
+        }
+
+        #sym1, #sym2 {
+            position: absolute;
+            font-size: 900px;
+            color: transparent;
+            -webkit-text-stroke: 1px white;
+            z-index: -1;
+        }
+
+        #sym1 {
+            top: -100px;
+            right: -50px;
+        }
+
+        #sym2 {
+            bottom: -100px;
+            left: -50px;
+        }
+
+        #free {
+            background-image: url("static/freefire.png");
+        }
+
+        #bgmi {
+            background-image: url("static/bgmi.png");
+        }
+
+        .copy {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #9c9999;
+            border-top: 1px solid #636363;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .button-container {
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+            }
+
+            .button-face {
+                font-size: 18px;
+            }
+
+            #free, #bgmi {
+                width: 150px;
+                height: 150px;
+            }
+
+            .logo {
+                width: 40px;
+                height: 40px;
+            }
+
+            .copy {
+                font-size: 10px;
+            }
+
+            #sym1, #sym2 {
+                font-size: 200px;
+            }
+
+            #sym1 {
+                top: -50px;
+                right: -25px;
+            }
+
+            #sym2 {
+                bottom: -50px;
+                left: -25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"></div>
+    </div>
+    <div class="container">
+        <div class="header">
+           <a href="Freefire.html"> <div class="button-container">
+            <div class="button">
+                    <div class="button-face button-front">
+                        <div id="free"></div>
+                        freefire
+                    </div>
+                   <div class="button-face button-back">Register Now</div>
+                </div></a>
+            </div>
+
+            
+            <a href="bgmi.html">  <div class="button-container">
+                <div class="button">
+                    <div class="button-face button-front">
+                        <div id="bgmi"></div>
+                        BGMI
+                    </div>
+                    <div class="button-face button-back">Register Now</div>
+                </div>
+            </div></a>
+        </div>
+        <div id="sym1">*</div>
+        <div id="sym2"><i>#</i></div>
+        <div class="copy">
+            <span>&#169; Copyright 2024, Computer Application Department | Tech Manthan 4.0 | Dr. B.B. Hegde First Grade College, Kundapura</span>
+        </div>
+    </div>
+</body>
+</html>
