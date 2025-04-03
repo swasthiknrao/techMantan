@@ -60,17 +60,12 @@ git clone https://github.com/swasthiknrao/techMantan.git
 
 2. Open `index.html` in your web browser to view the website.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
-For any queries or support, please contact the organizers through the college administration.
+For any queries or support, please contact:
+- Email: nraoswasthik2004@gmail.com
+- LinkedIn: www.linkedin.com/in/swasthik-n-rao
 
 ## Acknowledgments
 
