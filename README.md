@@ -60,6 +60,10 @@ git clone https://github.com/swasthiknrao/techMantan.git
 
 2. Open `index.html` in your web browser to view the website.
 
+#Development and Contribution
+
+Nithish Achar – nithishachar29@gmail.com
+
 
 ## Contact
 
