@@ -63,6 +63,8 @@ git clone https://github.com/swasthiknrao/techMantan.git
 ## Development and Contribution
 
 Nithish Achar – nithishachar29@gmail.com
+LinkedIn:https://www.linkedin.com/in/nithish-acharya-aa7283290
+
 
 
 ## Contact
